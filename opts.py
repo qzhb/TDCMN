@@ -22,8 +22,7 @@ def parse_opts():
     # path
     parser.add_argument(
         '--data_root_path',
-        #default='./data',
-        default='/DATA/disk1/qzb/datasets/',
+        default='./data',
         help='Root directory path of data')
     parser.add_argument(
         '--video_path',
