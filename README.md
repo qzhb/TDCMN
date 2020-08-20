@@ -37,7 +37,7 @@ This is a PyTorch implementation of the model described in our paper:
 * Pretrained model weigths are avaiable in [Google Grive](https://drive.google.com/drive/folders/1x_1bbcVFl30ry4CaRBBficsMFbTB3P6v?usp=sharing) 
 * Download the pre-trained weights and put them in folder results/
 
-* python main.py --gpu_ids 4,5 --model_name tdcmn_si_soa --dataset FCVID  --resume_path pretrained_model/tdcmn_si_soa.pth --no_train --test_crop_number 1
+* python main.py --gpu_ids 0,1 --model_name tdcmn_si_soa --dataset FCVID  --resume_path pretrained_model/tdcmn_si_soa.pth --no_train --test_crop_number 1
 
 
 # **Citation**
