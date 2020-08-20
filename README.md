@@ -28,7 +28,7 @@ This is a PyTorch implementation of the model described in our paper:
 
 # Train
 
-* python main.py --gpu_ids 4,5 --model_name tdcmn_si_soa --dataset FCVID  --no_test
+* python main.py --gpu_ids 0,1 --model_name tdcmn_si_soa --dataset FCVID  --no_test
 
   for other hyperparameters, please refer to opts.py file.
 
