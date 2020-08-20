@@ -214,7 +214,7 @@ def parse_opts():
     # other
     parser.add_argument(
         '--n_threads',
-        default=0,
+        default=8,
         type=int,
         help='Number of threads for multi-thread loading')
     parser.add_argument(
