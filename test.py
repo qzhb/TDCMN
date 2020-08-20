@@ -46,7 +46,10 @@ def test_epoch(epoch, data_loader, model, opt, logger, writer):
             outputs = model(inputs)
             
             all_targets.append(targets)
-            classification_results_final.append(outputs.unsqueeze(1).cpu().data)
+            if opt.test_crop_number == 1:
+                classification_results_final.append(outputs.cpu().data)
+            else:
+                classification_results_final.append(outputs.unsqueeze(1).cpu().data)
 
             batch_time.update(time.time() - end_time)
             end_time = time.time()
