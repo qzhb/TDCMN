@@ -43,14 +43,16 @@ This is a PyTorch implementation of the model described in our paper:
 # **Citation**
 
 Please cite our paper if you use this code in your own work:
-    @inproceedings{qi2020modeling,
+
+'''
+@inproceedings{qi2020modeling,
   title={Modeling Temporal Concept Receptive Field Dynamically for Untrimmed Video Analysis},
   author={Qi, Zhaobo and Wang, Shuhui and Su, Chi and Su, Li and Zhang, Weigang and Huang, Qingming},
   booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
   pages={3798--3806},
   year={2020}
 }
-
+'''
 
 # Contcat
 
